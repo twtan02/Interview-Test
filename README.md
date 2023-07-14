@@ -3,7 +3,9 @@
 ## Instructions
 
 - Fork this repository into your own GitHub account. If you don't have a GitHub account, please create one.
-- Commit all your changes to your forked repository.
+- Commit all your changes to your forked repository, following clean Git commit hygiene.
+    - Demonstrate clean Git commit hygiene, following best practices for commit messages and organizing your commits.
+    - For guidelines on clean Git commit hygiene, you can refer to [this source](https://cbea.ms/git-commit/).
 - Place all your source code files in the `src` folder.
     - For each question, create a file for the solution.
     - If you are using JavaScript, name the files as `p1.js`, `p2.js`, `p3.js`, ...
