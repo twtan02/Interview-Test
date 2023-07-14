@@ -31,8 +31,7 @@ Expected output: -36, -16, -3, 8, 21, 28, 55, 77, 99, 111, 400
 
 Note:
 - You are not allowed to use language library function to solve the problem.
-- Bonus:
-    - Prepare space-time complexity analysis for your solution.
+- **Bonus**: Prepare space-time complexity analysis for your solution.
 
 ### Problem 2 - FizzBuzz
 
@@ -53,8 +52,7 @@ Expected output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 
 Note:
 - Fibonacci sequence is a sequence in which each number is the sum of the two preceding ones.
-- Bonus:
-    - How would you handle preventing a stack overflow exception when generating a large sequence?
+- **Bonus**: How would you handle preventing a stack overflow exception when generating a large sequence?
 
 ### Problem 4 - Find List Intersection
 
@@ -68,8 +66,7 @@ Expected output: 4, 5, 6
 
 Note:
 - You are not allowed to use language library function to solve the problem.
-- Bonus:
-    - Prepare space-time complexity analysis for your solution.
+- **Bonus**: Prepare space-time complexity analysis for your solution.
 
 ### Problem 5 - Find List Symmetric Difference
 
@@ -83,8 +80,7 @@ Expected output: 1, 2, 3, 7, 8, 9
 
 Note:
 - You are not allowed to use language library function to solve the problem.
-- Bonus:
-    - Prepare space-time complexity analysis for your solution.
+- **Bonus**: Prepare space-time complexity analysis for your solution.
 
 ### Problem 6 - Find Character with Maximum Occurence
 
@@ -97,10 +93,17 @@ Expected output: Character: 'l', Occurrence: 3
 Note:
 - Consider case-sensitivity, so 'H' and 'h' are different characters.
 - The input string may contain whitespaces and punctuation. Ignore whitespaces and punctuation.
-- Bonus:
-    - Handle Unicode characters correctly. Unicode characters refer to characters that are part of the Unicode character set. The Unicode character set is a standard system that assigns a unique numerical value (code point) to every character, including letters, numbers, symbols, and special characters from various writing systems around the world. This includes characters from languages like Chinese, Arabic, Hindi, Cyrillic, etc, as well as special characters and symbols from various scripts.
+- **Bonus**: Handle Unicode characters correctly. Unicode characters refer to characters that are part of the Unicode character set. The Unicode character set is a standard system that assigns a unique numerical value (code point) to every character, including letters, numbers, symbols, and special characters from various writing systems around the world. This includes characters from languages like Chinese, Arabic, Hindi, Cyrillic, etc, as well as special characters and symbols from various scripts.
 
-### Problem 7 - Anagram Checker
+### Problem 7 - Square Root
+
+Write a function that calculates and returns the square root of a non-negative integer `x`. You can safely assume `x` is a perfect square, such as 4, 9, 16, 25, 36, and so on.
+
+Note:
+- You are not allowed to use any built-in square root function or operator or language library function to solve the problem.
+- **Bonus**: Prepare space-time complexity analysis for your solution.
+
+### Problem 8 - Anagram Checker
 
 Write a function that takes two strings as input and checks if they are anagrams of each other. Anagrams are words or phrases formed by rearranging the letters of another word or phrase.
 
@@ -140,5 +143,5 @@ Example 6:
 Note: 
 - Ignore case sensitivity, so "Listen" and "silent" should be considered anagrams.
 - Ignore whitespace and punctuation from the anagram check.
-- Bonus:
-    - Prepare space-time complexity analysis for your solution.
+- **Bonus**: Prepare space-time complexity analysis for your solution.
+
