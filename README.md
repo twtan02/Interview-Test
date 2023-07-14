@@ -13,6 +13,7 @@
 - You can use any programming language to solve the problems.
     - You can also use different programming languages for different problems if you see fit, but please explain your reasoning for selecting a particular language for each problem.
 - The bonus challenge in each problem is optional but greatly welcomed. You can choose to tackle it if you'd like.
+- Include comments in your code to explain your approach, algorithms, and any important details.
 - Additionally, if possible, include test cases for your solutions.
     - For each solution file, create a separate file for tests (e.g. `p1.test.js`, `p1.test.js`, `p1.test.js`).
     - Test files should be placed in the same `src` folder.
