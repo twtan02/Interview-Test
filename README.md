@@ -145,3 +145,54 @@ Note:
 - Ignore whitespace and punctuation from the anagram check.
 - **Bonus**: Prepare space-time complexity analysis for your solution.
 
+### Problem 9 - Node Path Existence
+
+You are given a directed graph represented by its nodes and edges. Each node is identified by a unique label. The nodes in graph may contain cycles or may not be connected. Write a function that takes the graph, start node, and end node as inputs and returns two pieces of information:
+
+1. A boolean value indicating whether a connected path exists between the specified nodes.
+2. The connected path itself, if it exists.
+
+Here is an example of the graph:
+
+```mermaid
+graph LR
+    A((A))
+    B((B))
+    C((C))
+    D((D))
+    E((E))
+    F((F))
+    G((G))
+    H((H))
+    A --> B
+    B --> A
+    B --> C
+    B --> D
+    D --> G
+    D --> E
+    B --> E
+    E --> F
+    F --> B
+    C --> F
+    F --> G
+```
+
+Example 1:
+- Input: Start = D, End = B
+- Expected output: False
+
+Example 2:
+- Input: Start = F, End = A
+- Expected output: True (F --> B --> A)
+
+Example 3:
+- Input: Start = G, End = C
+- Expected output: False
+
+Example 4:
+- Input: Start = E, End = D
+- Expected output: True (E --> F --> B --> D)
+
+Note:
+- You are free to propose any data structure to represent the directed graph.
+- **Bonus**: Ensure that the function always returns the shortest connected path if it exists (assuming each edge has the same weight).
