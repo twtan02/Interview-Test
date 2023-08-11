@@ -100,7 +100,7 @@ Note:
 Write a function that calculates and returns the square root of a non-negative integer `x`. You can safely assume `x` is a perfect square, such as 4, 9, 16, 25, 36, and so on.
 
 Note:
-- You are not allowed to use any built-in square root function or operator or language library function to solve the problem.
+- You are not allowed to use any built-in square root function or language library function to solve the problem.
 - **Bonus**: Prepare space-time complexity analysis for your solution.
 
 ### Problem 8 - Anagram Checker
