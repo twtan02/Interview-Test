@@ -1,5 +1,6 @@
 def find_intersection(list1, list2):
     intersection = []
+
     
     for item1 in list1:
         for item2 in list2:
