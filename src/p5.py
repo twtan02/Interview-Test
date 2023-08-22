@@ -10,7 +10,7 @@ def symmetric_difference(list1, list2):
             symmetric_diff.append(item2)
     
     return symmetric_diff
-
+    
 list1 = [4, 5, 2, 3, 1, 6]
 list2 = [8, 7, 6, 9, 4, 5]
 
