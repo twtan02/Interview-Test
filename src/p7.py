@@ -8,7 +8,7 @@ def sqrt(x):
     while left <= right:
         mid = (left + right) // 2
         square = mid * mid
-
+        
         if square == x:
             return mid
         elif square < x:
