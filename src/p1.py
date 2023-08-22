@@ -7,7 +7,7 @@ def number_sort(arr):
         for j in range(i + 1, n):
             if arr[j] < arr[min_idx]:
                 min_idx = j
-
+                
         # Swap the minimum element with the first element in the unsorted part
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
 
