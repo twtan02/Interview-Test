@@ -7,7 +7,7 @@ def are_anagrams(str1, str2):
 
     # Check if the sorted characters in both strings are the same
     return sorted(str1) == sorted(str2)
-
+    
 # Examples
 print(are_anagrams("listen", "silent"))  # True
 print(are_anagrams("debit card", "Bad credit")) # True  
