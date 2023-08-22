@@ -12,7 +12,7 @@ def find_max_occurrence_character(input_string):
     # Find the character with the maximum occurrence
     max_char = ''
     max_count = 0
-    
+
     for char, count in char_count.items():
         if count > max_count:
             max_char = char
